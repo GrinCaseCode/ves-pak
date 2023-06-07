@@ -244,7 +244,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
-		    background: #454545;
+		background: #454545;
 	}
 	.footer {
 		padding-bottom: 60px;
@@ -275,29 +275,29 @@
 		padding: 0;
 	}
 	.header {
-		padding: 13px 0;
+		padding: 9px 0;
 	}
 	.wrapper {
 		padding-top: 58px;
 	}
-.sandwich-menu {
-	display: flex;
-}
-.phone-mobile {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: 25px;
-    font-size: 19px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-   background: transparent;
-    color: #E31E24;
-    transform: rotate(8deg);
-}
-.menu-mobile {
+	.sandwich-menu {
+		display: flex;
+	}
+	.phone-mobile {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: 25px;
+		font-size: 19px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		background: transparent;
+		color: #E31E24;
+		transform: rotate(8deg);
+	}
+	.menu-mobile {
 		width: 100%;
 		top: 100%;
 		left: 0;
@@ -402,6 +402,9 @@
 	.slider-catalog .slick-slide {
 		padding-bottom: 15px;
 	}
+	.billbord {
+		padding-top: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -410,31 +413,31 @@
 		width: 50%;
 	}
 	.item-catalog {
-    padding: 20px;
-}
-.item-catalog__title {
-    font-size: 14px;
-    line-height: 21px;
-}
-.item-category__image {
-    height: 135px;
-}
-.catagories {
-    padding-bottom: 35px;
-}
-.title-big {
-    font-size: 25px;
-    line-height: 39px;
-}
-.billbord-block .list-main {
-    max-width: 310px;
-}
-.billbord-block {
-	background-size: 900px auto;
-}
-.advantages {
-	padding-top: 5px;
-}
+		padding: 20px;
+	}
+	.item-catalog__title {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.item-category__image {
+		height: 135px;
+	}
+	.catagories {
+		padding-bottom: 35px;
+	}
+	.title-big {
+		font-size: 25px;
+		line-height: 39px;
+	}
+	.billbord-block .list-main {
+		max-width: 310px;
+	}
+	.billbord-block {
+		background-size: 900px auto;
+	}
+	.advantages {
+		padding-top: 5px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -462,12 +465,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-.header-top .form-search {
-	display: block !important;
-}
-.menu-mobile {
-	display: none !important;
-}
+	.header-top .form-search {
+		display: block !important;
+	}
+	.menu-mobile {
+		display: none !important;
+	}
 }
 
 /* Large Devices, Wide Screens */
