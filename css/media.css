@@ -12,14 +12,14 @@
 		width: 135px;
 	}
 	.header__wrapper .logo {
-		margin-right: 14px;
+		margin-right: 14px; 
 	}
 	.menu {
 		margin-right: 19px;
 		margin-left: 12px;
 	}
 	.header-bottom {
-		padding-top: 10px;
+		padding: 10px 0;
 	}
 	body {
 		font-size: 14px;
@@ -137,8 +137,12 @@
 		padding-bottom: 14px;
 	}
 	.wrapper {
-		padding-top: 116px;
+		padding-top: 122px;
 	}
+	.catagories_page .item-category__title {
+    margin: 0 -13px;
+    margin-top: auto;
+}
 }
 
 /* Medium Devices, Desktops */
